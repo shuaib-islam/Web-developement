@@ -4,142 +4,192 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mount Caramel Book Club</title>
+    <title>Mount Caramel Book Club</title>
 
 </head>
 
 <body>
 
-<!-- Heading -->
+    <div class="grid-container">
 
-<h1>Mount Caramel Book Club</h1>
+        <!-- Heading -->
 
+        <header>
+            <h1>Mount Caramel Book Club</h1>
 
-
-
-<!-- intro -->
-
-<h1>Welcome To Mount Caramel Book Club</h1>
-
-<p>Mount Caramel Book Club is a online Community of Book readers in Mount Caramel School</p>
+            <img src="./books.jpg" alt="">
+        </header>
 
 
+        <!-- Nav bar -->
 
+        <nav>
+            <ul>
 
-<!-- content 1 -->
+                <li><a href=""> Home </a></li>
 
-<h2>Meet Our Teachers</h2>
+                <li><a href=""> Online resource </a></li>
 
-<h3>Ms. Emma</h3>
+                <li><a href=""> Reading Groups </a></li>
 
-<p>She teaches the elementary school kids, and she has a bachelors degree in elementary education </p>
+                <li><a href=""> Contact Us </a></li>
 
-<h3>Ms. Riziya</h3>
+            </ul>
+        </nav>
 
-<p>She teaches coding to the kids, and she has bachelors in Bsc. Engineering.</p>
+        <!-- intro -->
 
+        <div>
+            <h1>Welcome To Mount Caramel Book Club</h1>
 
+            <p>Mount Caramel Book Club is a online Community of Book readers in
+                Mount Caramel School</p>
+        </div id="main-section-content">
+        <div><!-- content 1 -->
 
+            <h2>Meet Our Teachers</h2>
 
+            <div id="Teachers">
+                <div class="teacher-info">
+                    <div>
+                        <img src="images.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h3>Ms. Riziya</h3>
+                        
+                        <p>She teaches coding to the kids, and she has bachelors in Bsc. Engineering.</p>
+                    </div>
+                </div>
+                <div class="teachers-info">
+                    <div>
+                        <img src="close-up-shot-of-happy-dark-skinned-afro-american-woman-laughs-positively-being-in-good-mood-dressed-in-black-casual-clothes-isolated-on-grey-background-human-emotions-and-feeligs-concept-photo.jpg"
+                            alt="">
+                    </div>
+                    
+                    <div>
+                        <h3>Ms. Emma</h3>
+                        
+                        <p>She teaches coding to the kids, and she has bachelors in Bsc. Engineering.</p>
+                    </div>
+                </div>
+            </div>
 
-<!-- content 2 -->
+            <!-- content 2 -->
 
-<h2>Book Reviews</h2>
+           <div id="book-reviews" class="main-section-content">
+            <h2>Book Reviews</h2>
+            
+            <h3>Harry Potter</h3>
+            
+            <p><strong>Ankita:</strong><q>I love it. It is amazing and this is a fiction about magic</q></p>
+            
+            <p><strong>Shuaib</strong><q>i love the story telling and magic in the stories</q></p>
+            
+            <p><strong>Mahnoor</strong><q>the magics and plots are so good, its undescribable!</q></p>
 
-<h3>Harry Potter</h3>
+           </div>
+            <!-- Content3 (table) -->
 
-<p><strong>Ankita:</strong><q>I love it. It is amazing and this is a fiction about magic</q></p>
+            <div class="main-section-content">
+                <h2>Opening Timings</h2>
+                
+                <table>
+                
+                    <tr>
+                
+                        <th>Monday</th>
+                
+                        <td> 11 am - 3 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Tuesday</th>
+                
+                        <td> 11 am - 3 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Wednesday</th>
+                
+                        <td> 11 am - 3 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Thursday</th>
+                
+                        <td> 11 am - 3 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Friday</th>
+                
+                        <td> 11 am - 1 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Saturday</th>
+                
+                        <td> 11 am - 1 pm </td>
+                
+                    </tr>
+                
+                    <tr>
+                
+                        <th>Sunday</th>
+                
+                        <td> Closed </td>
+                
+                    </tr>
+                
+                </table>
+                </div>
+                <!-- best seller Books -->
+                
+                <div id="bestsellers">
+                    <h2>Best Sellers</h2>
+                    
+                    <b>Women in the window</b> by <em>A. J. Finn</em> <br>
+                    
+                    <b>Angles Demons</b> by <em>Dan Brown</em> <br>
+                    
+                    <b>Pearl Maiden</b> by <em>H. R. Haggard</em> <br>
+                    
+                    <b>Old man and the see </b> by <em>Ernest Hemingway</em> <br>
+                    
+                    <b>Debi</b> by <em>Humayun Ahmed</em> <br>
+                </div>
 
-<p><strong>Shuaib</strong><q>i love the story telling and magic in the stories</q></p>
-
-<p><strong>Mahnoor</strong><q>the magics and plots are so good, its undescribable!</q></p>
-
-
-
-<!--content 3 (table)-->
-
-<h2>Opening Timings<h2>
-<tr>
-    <th>Saturday</th>
+                
+                
+                <!-- Contact Info -->
+                
+                <footer>
+                    <p>Contact Us: Riziya</p>
+                    
+                    <p>Phone: +1242345546567</p>
+                    
+                    <address> 221, baker Street , London, United Kingdom</address>
+                </footer>
     
-    <td> 11 am - 9 pm </td>
-</tr>
-<tr>
-    <th>Sunday</th>
-    
-    <td> 11 am - 4 pm </td>
-</tr>
-<tr>
-    <th>Monday</th>
-    
-    <td> 11 am - 5 pm </td>
-</tr>
-<tr>
-    <th>Tuesday</th>
-    
-    <td> 11 am - 5 pm </td>
-</tr>
-<tr>
-    <th>Wednesday</th>
-    
-    <td> 11 am - 5 pm </td>
-</tr>
-<tr>
-    <th>Thursday</th>
-    
-    <td> 11 am - 5 pm </td>
-</tr>
-<tr>
-    <th>Friday</th>
-    
-    <td> 11 am - 9 pm </td>
-</tr>
-
-<!-- best seller Books -->
-
-<h2>Best Sellers</h2>
-
-<b>Women in the window</b> by <em>A. J. Finn</em> <br>
-
-<b>Angles Demons</b> by <em>Dan Brown</em> <br>
-
-<b>Pearl Maiden</b> by <em>H. R. Haggard</em> <br>
-
-<b>Old man and the see </b> by <em>Ernest Hemingway</em> <br>
-
-<b>Debi</b> by <em>Humayun Ahmed</em> <br>
-
-
-
-
-
-<!-- Contact Info -->
-
-<p>Contact Us: Riziya</p>
-
-<p>Phone: +1242345546567</p>
-
-<address> 221, baker Street , London, United Kingdom</address>
+            </div>
+<button>E</button>
+    </div>
 
 </body>
 
 </html>
-
-
-
-<!--Heading-->
-\<h1>mount caramel book club</h1>
-<!--Nav Bar-->
-<ul>
-    <li><a href=""> Home </a></li>
-    <li><a href=""> Online Resource </a>  </li>
-    <li><a href=""> Reading Groups </a></li>
-    <li><a href=""> Contact Us </a></li>
-</ul>
-<!--intro-->
-<h1>Welcome to Mount Caramel Book Club</h1>
-<p>Mount Caramel is an online community</p>
