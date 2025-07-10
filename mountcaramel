@@ -10,7 +10,172 @@
 
     <title>Mount Caramel Book Club</title>
 
+    <style>
+        body {
+            background-color: 7579E7;
+        }
+
+        header {
+            background-color: rgb(15, 224, 15);
+        }
+
+
+        nav {
+            background-color: rgb(15, 224, 15)
+        }
+
+        #intro {
+            background-color: rgb(223, 219, 16);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .main-section-content h2 {
+            background-color: rgb(121, 238, 5);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        #bestsellers footer {
+            background-color: rgb(26, 126, 93);
+
+
+        }
+
+        h2,
+        p {
+            color: rgba(0, 132, 255, 0.712);
+        }
+
+        header,
+        nav,
+        #intro,
+        #main-section,
+        #bestsellers,
+        footer {
+            border: 1px solid black;
+        }
+
+        header nav #main-section {
+            border-radius: 10px;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 30px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:last-child {
+            color: red;
+        }
+
+        span {
+            color: blue;
+        }
+
+        footer p:first :first-child span {
+            color: red;
+        }
+
+        .teacher-info {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 100px;
+            ;
+            width: 400px;
+            box-shadow: 6px 0px 21px -3px #333333;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            color: rgba(255, 255, 255, 0.966);
+            background-color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+
+        li a {
+            text-decoration: none;
+            color: #333333;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        li a:hover {
+            color: red;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+        nav li{
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid;
+            border-radius: 5px;
+
+
+        }
+
+        .teacher-info div:last-child{
+            margin-left: 50px;
+        }
+        
+        .main-section-content{
+            padding: 20px;
+        }
+
+        table{
+            margin: auto;
+        }
+        th
+        td{
+            padding: 10px;
+        }
+        footer{
+            padding: 20px;
+        }
+        #best-sellers h2{
+            padding: 20px;
+        }
+
+        ol li{
+            margin: bottom;
+        }
+        
+        
+    </style>
+
+
+
 </head>
+
 
 <body>
 
@@ -48,7 +213,7 @@
 
             <p>Mount Caramel Book Club is a online Community of Book readers in
                 Mount Caramel School</p>
-        </div id="main-section-content">
+        </div id="main-section">
         <div><!-- content 1 -->
 
             <h2>Meet Our Teachers</h2>
@@ -58,10 +223,10 @@
                     <div>
                         <img src="images.jpeg" alt="">
                     </div>
-                    
+
                     <div>
                         <h3>Ms. Riziya</h3>
-                        
+
                         <p>She teaches coding to the kids, and she has bachelors in Bsc. Engineering.</p>
                     </div>
                 </div>
@@ -70,10 +235,10 @@
                         <img src="close-up-shot-of-happy-dark-skinned-afro-american-woman-laughs-positively-being-in-good-mood-dressed-in-black-casual-clothes-isolated-on-grey-background-human-emotions-and-feeligs-concept-photo.jpg"
                             alt="">
                     </div>
-                    
+
                     <div>
                         <h3>Ms. Emma</h3>
-                        
+
                         <p>She teaches coding to the kids, and she has bachelors in Bsc. Engineering.</p>
                     </div>
                 </div>
@@ -81,113 +246,113 @@
 
             <!-- content 2 -->
 
-           <div id="book-reviews" class="main-section-content">
-            <h2>Book Reviews</h2>
-            
-            <h3>Harry Potter</h3>
-            
-            <p><strong>Ankita:</strong><q>I love it. It is amazing and this is a fiction about magic</q></p>
-            
-            <p><strong>Shuaib</strong><q>i love the story telling and magic in the stories</q></p>
-            
-            <p><strong>Mahnoor</strong><q>the magics and plots are so good, its undescribable!</q></p>
+            <div id="book-reviews" class="main-section-content">
+                <h2>Book Reviews</h2>
 
-           </div>
+                <h3>Harry Potter</h3>
+
+                <p><strong>Ankita:</strong><q>I love it. It is amazing and this is a fiction about magic</q></p>
+
+                <p><strong>Shuaib</strong><q>i love the story telling and magic in the stories</q></p>
+
+                <p><strong>Mahnoor</strong><q>the magics and plots are so good, its undescribable!</q></p>
+
+            </div>
             <!-- Content3 (table) -->
 
             <div class="main-section-content">
                 <h2>Opening Timings</h2>
-                
-                <table>
-                
-                    <tr>
-                
-                        <th>Monday</th>
-                
-                        <td> 11 am - 3 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Tuesday</th>
-                
-                        <td> 11 am - 3 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Wednesday</th>
-                
-                        <td> 11 am - 3 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Thursday</th>
-                
-                        <td> 11 am - 3 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Friday</th>
-                
-                        <td> 11 am - 1 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Saturday</th>
-                
-                        <td> 11 am - 1 pm </td>
-                
-                    </tr>
-                
-                    <tr>
-                
-                        <th>Sunday</th>
-                
-                        <td> Closed </td>
-                
-                    </tr>
-                
-                </table>
-                </div>
-                <!-- best seller Books -->
-                
-                <div id="bestsellers">
-                    <h2>Best Sellers</h2>
-                    
-                    <b>Women in the window</b> by <em>A. J. Finn</em> <br>
-                    
-                    <b>Angles Demons</b> by <em>Dan Brown</em> <br>
-                    
-                    <b>Pearl Maiden</b> by <em>H. R. Haggard</em> <br>
-                    
-                    <b>Old man and the see </b> by <em>Ernest Hemingway</em> <br>
-                    
-                    <b>Debi</b> by <em>Humayun Ahmed</em> <br>
-                </div>
 
-                
-                
-                <!-- Contact Info -->
-                
-                <footer>
-                    <p>Contact Us: Riziya</p>
-                    
-                    <p>Phone: +1242345546567</p>
-                    
-                    <address> 221, baker Street , London, United Kingdom</address>
-                </footer>
-    
+                <table>
+
+                    <tr>
+
+                        <th>Monday</th>
+
+                        <td> 11 am - 3 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Tuesday</th>
+
+                        <td> 11 am - 3 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Wednesday</th>
+
+                        <td> 11 am - 3 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Thursday</th>
+
+                        <td> 11 am - 3 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Friday</th>
+
+                        <td> 11 am - 1 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Saturday</th>
+
+                        <td> 11 am - 1 pm </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Sunday</th>
+
+                        <td> Closed </td>
+
+                    </tr>
+
+                </table>
             </div>
-<button>E</button>
+            <!-- best seller Books -->
+
+            <div id="bestsellers">
+                <h2>Best Sellers</h2>
+
+                <b>Women in the window</b> by <em>A. J. Finn</em> <br>
+
+                <b>Angles Demons</b> by <em>Dan Brown</em> <br>
+
+                <b>Pearl Maiden</b> by <em>H. R. Haggard</em> <br>
+
+                <b>Old man and the see </b> by <em>Ernest Hemingway</em> <br>
+
+                <b>Debi</b> by <em>Humayun Ahmed</em> <br>
+            </div>
+
+
+
+            <!-- Contact Info -->
+
+            <footer>
+                <p>Contact Us: Riziya</p>
+
+                <p>Phone: +1242345546567</p>
+
+                <address> 221, baker Street , London, United Kingdom</address>
+            </footer>
+
+        </div>
+        <button>E</button>
     </div>
 
 </body>
