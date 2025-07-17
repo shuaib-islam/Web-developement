@@ -13,18 +13,23 @@
     <style>
         body {
             background-color: 7579E7;
+
         }
 
         header {
-            background-color: rgb(15, 224, 15);
+            background-color: rgb(113, 243, 27);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-
 
         nav {
             background-color: rgb(15, 224, 15);
             position: sticky;
             top: 0px;
             z-index: 2;
+            display: flex;
+            justify-content: center;
         }
 
         #intro {
@@ -97,15 +102,11 @@
             border: 1px solid black;
             border-radius: 5px;
             margin: 100px;
-            ;
             width: 400px;
             box-shadow: 6px 0px 21px -3px #333333;
-            padding: 5px;
-            border-radius: 5px;
-            border: none;
-            position: fixed;
-            right: 50px;
-            bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
         }
 
         button {
@@ -113,6 +114,12 @@
             background-color: red;
             font-size: 20px;
             font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            position: fixed;
+            right: 50px;
+            bottom: 40px; 
         }
 
         ul {
@@ -140,7 +147,8 @@
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: underline;
         }
-        nav li{
+
+        nav li {
             margin: 10px;
             padding: 5px;
             border: 1px solid;
@@ -149,41 +157,56 @@
 
         }
 
-        .teacher-info div:last-child{
+        .teacher-info div:last-child {
             margin-left: 50px;
         }
-        
-        .main-section-content{
+
+        .main-section-content {
             padding: 20px;
         }
 
-        table{
+        table {
             margin: auto;
         }
-        th
-        td{
+
+        th td {
             padding: 10px;
         }
-        footer{
+
+        footer {
             padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
-        #best-sellers h2{
+
+        #best-sellers h2 {
             padding: 20px;
         }
 
-        ol li{
+        ol li {
             margin: bottom;
         }
 
         #book-reviews h3,
-        #book-reviews p{
+        #book-reviews p {
             position: relative;
             left: 40%;
             width: 400px;
-            
+
         }
-        
-        
+
+        #Teachers{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
     </style>
 
 
@@ -200,7 +223,7 @@
         <header>
             <h1>Mount Caramel Book Club</h1>
 
-            <img src="./books.jpg" alt="">
+            <img src="depositphotos_93637546-stock-photo-stack-of-colorful-books-grungy.jpg" alt="">
         </header>
 
 
