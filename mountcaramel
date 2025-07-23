@@ -106,7 +106,7 @@
             box-shadow: 6px 0px 21px -3px #333333;
             display: flex;
             justify-content: center;
-            align-items: center;   
+            align-items: center;
         }
 
         button {
@@ -119,7 +119,7 @@
             border: none;
             position: fixed;
             right: 50px;
-            bottom: 40px; 
+            bottom: 40px;
         }
 
         ul {
@@ -196,17 +196,46 @@
 
         }
 
-        #Teachers{
+        #Teachers {
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        nav ul{
+        nav ul {
             display: flex;
             justify-content: center;
         }
 
+        header{
+            grid-area: header;
+
+        }
+
+        #intro{
+            grid-area: intro; 
+
+        }
+        #main-section{
+            grid-area: main-section;
+        }
+        #bestsellers{
+            grid-area: bestsellers;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-areas: 
+           "header header header header intro"
+           "nav nav nav nav intro"
+           "main-section main-section main-section main-section bestsellers"
+           "footer footer footer footer footer";          
+            
+        }
     </style>
 
 
